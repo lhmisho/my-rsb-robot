@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20230611 20:50:07.748" rpa="false" schemaversion="3">
-<suite id="s1" name="Robot Interactive Console" source="/Users/lokmanhossen/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on linux)" generated="20230612 11:07:35.413" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/home/lhmisho/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<kw name="Input Text" library="RPA.Browser.Selenium">
-<arg>username</arg>
-<arg>maria</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230611 20:50:39.788" level="FAIL">No browser is open.</msg>
-<status status="FAIL" starttime="20230611 20:50:39.786" endtime="20230611 20:50:39.789"/>
+<kw name="Screenshot" library="RPA.Browser.Selenium">
+<arg>css:css:div.sales-summary</arg>
+<arg>${OUTPUT_DIR}${/}sales_summary.png</arg>
+<doc>Capture page and/or element screenshot.</doc>
+<msg timestamp="20230612 11:09:14.979" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230612 11:09:14.977" endtime="20230612 11:09:14.979"/>
 </kw>
-<kw name="Input Password" library="RPA.Browser.Selenium">
-<arg>password</arg>
-<arg>thoushallnotpass</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<msg timestamp="20230611 20:53:42.806" level="FAIL">No browser is open.</msg>
-<status status="FAIL" starttime="20230611 20:53:42.805" endtime="20230611 20:53:42.807"/>
+<kw name="Screenshot" library="RPA.Browser.Selenium">
+<arg>css:css:div.sales-summary</arg>
+<arg>${OUTPUT_DIR}${/}sales_summary.png</arg>
+<doc>Capture page and/or element screenshot.</doc>
+<msg timestamp="20230612 11:09:24.176" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230612 11:09:24.175" endtime="20230612 11:09:24.176"/>
 </kw>
-<kw name="Submit Form" library="RPA.Browser.Selenium">
-<doc>Submits a form identified by ``locator``.</doc>
-<msg timestamp="20230611 20:53:56.441" level="FAIL">No browser is open.</msg>
-<status status="FAIL" starttime="20230611 20:53:56.440" endtime="20230611 20:53:56.442"/>
+<status status="PASS" starttime="20230612 11:07:35.437" endtime="20230612 11:14:16.249"/>
 </kw>
-<kw name="Click Button" library="RPA.Browser.Selenium">
-<arg>Submit</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20230611 23:14:44.364" level="FAIL">No browser is open.</msg>
-<status status="FAIL" starttime="20230611 23:14:44.362" endtime="20230611 23:14:44.365"/>
-</kw>
-<status status="PASS" starttime="20230611 20:50:07.770" endtime="20230611 23:28:00.548"/>
-</kw>
-<status status="PASS" starttime="20230611 20:50:07.770" endtime="20230611 23:28:00.550"/>
+<status status="PASS" starttime="20230612 11:07:35.437" endtime="20230612 11:14:16.249"/>
 </test>
-<status status="PASS" starttime="20230611 20:50:07.749" endtime="20230611 23:28:00.554"/>
+<status status="PASS" starttime="20230612 11:07:35.413" endtime="20230612 11:14:16.251"/>
 </suite>
 <statistics>
 <total>
